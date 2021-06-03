@@ -21,7 +21,7 @@
         "mediconesystems/livewire-datatables": "dev-master",
         "vinkla/hashids": "^9.1",
         "ext-bcmath": "*",
-        "ext-gmp": "*",
+        "ext-gmp": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
