@@ -19,7 +19,7 @@
         "laraveldaily/laravel-invoices": "^2.0",
         "livewire/livewire": "^2.0",
         "mediconesystems/livewire-datatables": "dev-master",
-        "vinkla/hashids": "^9.1"
+        "vinkla/hashids": "^9.1",
         "ext-bcmath": "*",
         "ext-gmp": "*",
     },
@@ -42,32 +42,31 @@
         "psr-4": {
             "Tests\\": "tests/"
         },
-        "files":  [
-            "app/helpers.php"
-        ]
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
-        ],
-        "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
-        "post-create-project-cmd": [
-            "@php artisan key:generate --ansi"
-        ]
-    },
-    "extra": {
-        "laravel": {
-            "dont-discover": []
-        }
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+        "files": "app/helpers.php"
+    ]
+},
+"scripts": {
+    "post-autoload-dump": [
+        "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+        "@php artisan package:discover --ansi"
+    ],
+    "post-root-package-install": [
+        "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
+    "post-create-project-cmd": [
+        "@php artisan key:generate --ansi"
+    ]
+},
+"extra": {
+    "laravel": {
+        "dont-discover": []
+    }
+},
+"config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+},
+"minimum-stability": "dev",
+"prefer-stable": true
 }
