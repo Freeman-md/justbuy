@@ -1,0 +1,71 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.responsive-container {
+    @apply max-w-7xl mx-auto px-2 sm:px-6 lg:px-8;
+}
+
+#featured-products .item{
+  margin: 3px;
+}
+#featured-products .item img{
+  display: block;
+}
+
+.btn {
+    @apply transition duration-300 ease-in-out focus:outline-none shadow-sm;
+    @apply focus:ring-offset-2;
+}
+
+.btn-sm {
+    @apply text-sm px-4 py-1
+}
+
+.btn-md {
+    @apply text-base px-4 py-2
+}
+
+.btn-lg {
+    @apply text-lg px-6 py-3
+}
+
+.btn-primary {
+    @apply text-white bg-primary hover:bg-black focus:bg-black;
+}
+
+.btn-dark {
+    @apply text-white bg-black hover:opacity-75;
+}
+
+.btn-light {
+    @apply text-black bg-white hover:bg-black hover:text-white;
+}
+
+.input-quantity,
+.input-quantity:hover,
+.input-quantity:focus {
+    width: 30px;
+    text-align: center;
+    border-width: 0px 0px 1px;
+    border-bottom: 1px solid bg-primary;
+    background-color: inherit;
+}
+
+.toast {
+    font-size: 13px;
+}
+
+.toast-success {
+    background-color: #000;
+    color: white;
+}
+
+.disabled {
+     @apply opacity-50 bg-secondary text-white cursor-default
+}
+
+ #map {
+    height: 400px;
+    width: 100%;
+}         
