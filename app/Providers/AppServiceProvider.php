@@ -7,6 +7,7 @@ use App\Models\User;
 use App\Observers\ProductObserver;
 use App\Observers\UserObserver;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
