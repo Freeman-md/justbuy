@@ -35,7 +35,7 @@
     </div>
 
     {{-- Products --}}
-    <div class="grid w-full mt-8 space-y-2 xs:space-y-0 sm:space-y-0 lg:grid-cols-5 md:grid-cols-3 xs:grid-cols-2 sm:grid-cols-2 lg:gap-4 md:gap-4 sm:gap-6 xs:gap-6">
+    <div class="grid w-full mt-8 space-y-2 2xs:space-y-0 xs:space-y-0 sm:space-y-0 lg:grid-cols-5 md:grid-cols-3 xs:grid-cols-2 2xs:grid-cols-2 sm:grid-cols-2 lg:gap-4 md:gap-4 sm:gap-6 xs:gap-6 2xs:gap-6">
         @foreach($products as $product)
             @livewire('includes.product', ['product' => $product, 'cartItems' => $cartItems, 'cartIds' => $cartIds], key($product->id))
         @endforeach

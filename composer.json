@@ -20,6 +20,7 @@
         "laraveldaily/laravel-invoices": "^2.0",
         "livewire/livewire": "^2.0",
         "mediconesystems/livewire-datatables": "dev-master",
+        "unicodeveloper/laravel-paystack": "1.0.*",
         "vinkla/hashids": "^9.1",
         "ext-bcmath": "*",
         "ext-gmp": "*"

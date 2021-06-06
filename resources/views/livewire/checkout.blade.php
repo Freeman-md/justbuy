@@ -89,6 +89,19 @@
                 </div>
             </div>
         </div>
+
+        <div class="my-2">
+            <form action="{{route('pay')}}" method="POST">
+                @csrf
+                <input type="hidden" name="email" value="{{auth()->user()->email}}"> {{-- required --}}
+                <input type="hidden" name="orderID" value="{{Hashids::encode(auth()->id() + 1)}}">
+                <input type="hidden" name="amount" value="{{(float)Cart::total() * 100000}}"> {{-- required in kobo --}}
+                <input type="hidden" name="quantity" value="1">
+                <input type="hidden" name="currency" value="NGN">
+                <input type="hidden" name="reference" value="{{ Paystack::genTranxRef() }}">
+                <button class="btn btn-sm btn-dark">Pay Now</button>
+            </form>
+        </div>
     @endif
 
 </div>

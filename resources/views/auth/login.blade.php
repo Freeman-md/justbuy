@@ -12,7 +12,7 @@
 
             <div>
                 <x-jet-label for="email" value="{{ __('Email') }}" />
-                <x-jet-input id="email" class="block w-full mt-1" type="email" name="email" />
+                <x-jet-input id="email" class="block w-full mt-1" type="email" name="email" value="{{old('email')}}" />
                 <x-jet-input-error for="email" class="mt-2" />
             </div>
 

@@ -164,6 +164,7 @@ return [
         Gloudemans\Shoppingcart\ShoppingcartServiceProvider::class,
         Brian2694\Toastr\ToastrServiceProvider::class,
         LaravelDaily\Invoices\InvoiceServiceProvider::class,
+        Unicodeveloper\Paystack\PaystackServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -235,8 +236,8 @@ return [
         'Cart' => Gloudemans\Shoppingcart\Facades\Cart::class,
         'Hashids' => Vinkla\Hashids\Facades\Hashids::class,
         'Toastr'  => Brian2694\Toastr\Facades\Toastr::class,
-        'Invoice' => LaravelDaily\Invoices\Facades\Invoice::class
-
+        'Invoice' => LaravelDaily\Invoices\Facades\Invoice::class,
+        'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
     ],
 
 ];

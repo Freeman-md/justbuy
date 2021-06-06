@@ -27,6 +27,7 @@ module.exports = {
             }),
             screens: theme => theme('screens'),
             screens: {
+                '2xs': { 'min': '330px', 'max': '474px' },
                 'xs': { 'min': '475px', 'max': '639px' }
             },
             borderColor: theme => ({
