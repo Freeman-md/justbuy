@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Paystack;
+use Cart;
 
 class PaymentController extends Controller
 {
@@ -21,6 +22,7 @@ class PaymentController extends Controller
         $paymentDetails = Paystack::getPaymentData();
 
         session()->flash('success', 'Your payment has been confirmed successfully.');
+        Cart::destroy();
         return redirect(route('user-orders', ));
     }
 }
