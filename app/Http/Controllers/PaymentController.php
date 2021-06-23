@@ -23,6 +23,6 @@ class PaymentController extends Controller
 
         session()->flash('success', 'Your payment has been confirmed successfully.');
         Cart::destroy();
-        return redirect(route('user-orders', ));
+        return redirect(route('user-orders'));
     }
 }
