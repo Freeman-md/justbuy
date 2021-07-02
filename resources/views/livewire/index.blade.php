@@ -120,22 +120,22 @@
         <div class="w-full mt-8 responsive-container">
             <div id="our-brands" class="owl-carousel owl-theme">
                 <div class="w-full transition duration-300 h-44">
-                    <img src="https://eloquent-banach-06c59d.netlify.app/images/products/brands/brands1.webp" alt="Brand 1">
+                    <img src="https://js-commerce.netlify.app/images/products/brands/brands1.webp" alt="Brand 1">
                 </div>
                 <div class="w-full transition duration-300 h-44">
-                    <img src="https://eloquent-banach-06c59d.netlify.app/images/products/brands/brands2.webp" alt="Brand 2">
+                    <img src="https://js-commerce.netlify.app/images/products/brands/brands2.webp" alt="Brand 2">
                 </div>
                 <div class="w-full transition duration-300 h-44">
-                    <img src="https://eloquent-banach-06c59d.netlify.app/images/products/brands/brands3.webp" alt="Brand 3">
+                    <img src="https://js-commerce.netlify.app/images/products/brands/brands3.webp" alt="Brand 3">
                 </div>
                 <div class="w-full transition duration-300 h-44">
-                    <img src="https://eloquent-banach-06c59d.netlify.app/images/products/brands/brands4.webp" alt="Brand 4">
+                    <img src="https://js-commerce.netlify.app/images/products/brands/brands4.webp" alt="Brand 4">
                 </div>
                 <div class="w-full transition duration-300 h-44">
-                    <img src="https://eloquent-banach-06c59d.netlify.app/images/products/brands/brands5.webp" alt="Brand 5">
+                    <img src="https://js-commerce.netlify.app/images/products/brands/brands5.webp" alt="Brand 5">
                 </div>
                 <div class="w-full transition duration-300 h-44">
-                    <img src="https://eloquent-banach-06c59d.netlify.app/images/products/brands/brands6.webp" alt="Brand 6">
+                    <img src="https://js-commerce.netlify.app/images/products/brands/brands6.webp" alt="Brand 6">
                 </div>
             </div>
         </div>
