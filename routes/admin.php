@@ -25,7 +25,13 @@ Route::group(['namespace' => '\App\Http\Livewire\Admin\Stocks'], function () {
   Route::get('/admin/stocks', Index::class)->name('admin-stocks');
 });
 
-// Admin Management - Stocks
+// Admin Management - Orders
 Route::group(['namespace' => '\App\Http\Livewire\Admin\Orders'], function () {
   Route::get('/admin/orders', Index::class)->name('admin-orders');
+});
+
+// Admin Management - Projects
+Route::group(['namespace' => '\App\Http\Livewire\Admin\Projects'], function () {
+  Route::get('/admin/projects', Index::class)->name('admin-projects');
+  Route::get('/admin/projects/create', Create::class)->name('admin-projects.create');
 });

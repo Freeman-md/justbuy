@@ -16,6 +16,8 @@
               {{ __(' - Stocks') }}
           @elseif(request()->routeIs('admin-orders'))
               {{ __(' - Orders') }}
+          @elseif(request()->routeIs('admin-projects'))
+              {{ __(' - Projects') }}
           @elseif(request()->routeIs('profile.show'))
               {{ __(' - Profile') }}
           @endif
@@ -38,6 +40,9 @@
             </x-jet-nav-link>
             <x-jet-nav-link href="{{ route('admin-orders') }}" :active="request()->routeIs('admin-orders')">
               {{ __('Orders') }}
+            </x-jet-nav-link>
+            <x-jet-nav-link href="{{ route('admin-projects') }}" :active="request()->routeIs('admin-projects')">
+              {{ __('Projects') }}
             </x-jet-nav-link>
           </div>
           @livewire('admin.notifications.index')
