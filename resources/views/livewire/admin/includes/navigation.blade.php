@@ -84,6 +84,9 @@
                       <a href="{{ route('admin-orders')}}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition @if(request()->segment(2) == 'orders') bg-gray-100 @endif">
                           {{ __('Orders') }}
                       </a>
+                      <a href="{{ route('admin-projects')}}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition @if(request()->segment(2) == 'projects') bg-gray-100 @endif">
+                          {{ __('Projects') }}
+                      </a>
                       <a href="{{ route('profile.show')}}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition @if(request()->segment(2) == 'profile') bg-gray-100 @endif">
                           {{ __('Profile') }}
                       </a>
