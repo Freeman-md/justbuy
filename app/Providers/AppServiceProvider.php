@@ -28,6 +28,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if(config('app.env') === 'production') {
+            $this->app['request']->server->set('HTTPS', true);
+        }
+
         User::observe(UserObserver::class);
         Product::observe(ProductObserver::class);
         Schema::defaultStringLength(191);
