@@ -19,7 +19,7 @@ class ProjectSeeder extends Seeder
     ['E - Commerce Single Page Application', '', 'https://github.com/Freeman-md/djackets', 'https://djackets-vue.netlify.app', 1, 'Django, Django REST Framework, Vue'],
     ['HIOS Notepad and Todo Application Clone - SPA', '', 'https://github.com/Freeman-md/notepad', 'https://vue-ts-notepad.netlify.app', 1, 'Vue, TypeScript, Vuetify, Firebase'],
     ['Madam Boutique Online Store ', 'Madam Boutique is a sophisticated complete e-commerce application using HTML, CSS & JS', 'https://github.com/Freeman-md/madam-boutique', 'https://js-commerce.netlify.app', 1, 'HTML, CSS, Bootstrap 4, JavaScript, Jquery'],
-    ['Todo Application using React JS', '', 'https://github.com/Freeman-md/react-todos', 'https://react-bootstrap5-todos.netlify.app', 0, 'React JS, Bootstrap 5']]
+    ['Todo Application using React JS', '', 'https://github.com/Freeman-md/react-todos', 'https://react-bootstrap5-todos.netlify.app', 0, 'React JS, Bootstrap 5']];
 
         for ($i = 0; $i < count($projects); $i++) {
             Project::create([
@@ -28,7 +28,7 @@ class ProjectSeeder extends Seeder
                 'github' => $projects[$i][2],
                 'live' => $projects[$i][3],
                 'star' => $projects[$i][4],
-                'stacks' => $projects[$i][]
+                'stacks' => $projects[$i][5]
             ]);
         }
     }
