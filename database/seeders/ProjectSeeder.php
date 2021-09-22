@@ -28,7 +28,7 @@ class ProjectSeeder extends Seeder
                 'github' => $projects[$i][2],
                 'live' => $projects[$i][3],
                 'star' => $projects[$i][4],
-                'stacks' => $projects[$i][5]
+                'stacks' => $projects[$i][]
             ]);
         }
     }
