@@ -35,7 +35,7 @@ class ProjectResource extends JsonResource
             'content' => $this->description,
             'links' => $links,
             'technologies' => $technologies,
-            'starred' => $this->star === 1
+            'starred' => $this->star
         ];
     }
 }
