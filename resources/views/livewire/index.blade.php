@@ -152,7 +152,6 @@
             <div class="responsive-container">
                 <div class="grid py-10 space-y-4 text-white sm:grid-cols-2 sm:gap-12 md:space-y-0 md:grid-cols-4 md:gap-6 sm:space-y-0">
                     
-                    {{-- Customer Say --}}
                     <div class="flex flex-col items-center justify-start" wire:ignore>
                         <img src="{{ (is_null($avatars) || $avatars == []) ? '' : $avatars['photos'][0]['src']['small'] }}" alt="Sandra" class="w-10 h-10 rounded-full" wire:ignore/>
                         <span class="w-2/3 text-center sm:w-full">Very user friendly and nice features. You would want to try this.</span>
@@ -160,7 +159,6 @@
                         <span class="text-xs font-bold text-white uppercase">Fashion Designer</span>
                     </div>
 
-                    {{-- Customer Say --}}
                     <div class="flex flex-col items-center justify-center" wire:ignore>
                         <img src="{{ (is_null($avatars) || $avatars == []) ? '' : $avatars['photos'][1]['src']['small'] }}" alt="George" class="w-10 h-10 rounded-full" wire:ignore/>
                         <span class="w-2/3 text-center sm:w-full">JustBuy is a good and well-known store.</span>
@@ -168,7 +166,6 @@
                         <span class="text-xs font-bold text-white uppercase">Product Manager</span>
                     </div>
 
-                    {{-- Customer Say --}}
                     <div class="flex flex-col items-center justify-center" wire:ignore>
                         <img src="{{ (is_null($avatars) || $avatars == []) ? '' : $avatars['photos'][2]['src']['small'] }}" alt="Edwin" class="w-10 h-10 rounded-full" wire:ignore/>
                         <span class="w-2/3 text-center sm:w-full">Very good and elegant designs with the automatic invoices.</span>
@@ -176,7 +173,6 @@
                         <span class="text-xs font-bold text-white uppercase">CEO Zaful</span>
                     </div>
 
-                    {{-- Customer Say --}}
                     <div class="flex flex-col items-center justify-center" wire:ignore>
                         <img src="{{ (is_null($avatars) || $avatars == []) ? '' : $avatars['photos'][3]['src']['small'] }}" alt="Mark" class="w-10 h-10 rounded-full" wire:ignore/>
                         <span class="w-2/3 text-center sm:w-full">One thing I love about this store is about their unque designs.</span>
