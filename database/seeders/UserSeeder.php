@@ -14,8 +14,7 @@ class UserSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        // Seed users
+    {        
         // \App\Models\User::factory(5)->create();
 
         // Create admin user
