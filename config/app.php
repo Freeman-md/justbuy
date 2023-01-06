@@ -169,6 +169,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -238,6 +239,8 @@ return [
         'Toastr'  => Brian2694\Toastr\Facades\Toastr::class,
         'Invoice' => LaravelDaily\Invoices\Facades\Invoice::class,
         'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
+        'Bugsnag' => Bugsnag\BugsnagLaravel\Facades\Bugsnag::class,
+
     ],
 
 ];
